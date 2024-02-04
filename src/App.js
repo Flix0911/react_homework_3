@@ -18,9 +18,9 @@ function App() {
 
   //function to get a gif from the api ~ this updates states
   //Button click will always provide random, 1 arg of random
-  const getGif = async(random) => {
+  const getGif = async() => {
   //url to fetch form
-  const url = `https://api.giphy.com/v1/gifs/${random}?api_key=${apiKey}`
+  const url = `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`
 
   //fetch gif data
   const response = await fetch(url)
