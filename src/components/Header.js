@@ -1,7 +1,11 @@
 //This is the Header component
 
 function Header(Props){
-    return <h1>This is the Header component</h1>
+    return <div>
+        <h1>Welcome to the "Gif"-erator!</h1>
+        <h3>Please click the button below</h3>
+        </div>
+        
 }
 
 //export out

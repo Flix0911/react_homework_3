@@ -1,3 +1,27 @@
+html {
+  background-color: darkblue;
+  color: red;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: rgb(225, 83, 11);
+  cursor: crosshair;
+}
+
+h1 {
+  font-size: 50px;
+  color: limegreen;
+}
+
+img {
+  border: 5px solid pink;
+}
+
 .App {
   text-align: center;
 }
